@@ -3,6 +3,9 @@ console.log('my' + ' cat');
 console.log('1' + 2);
 console.log(`string literals: 1 + 2 = ${1+2}`);
 
+
+
+
 // 2. Numeric operators
 console.log(3 + 2);  // add :: 더하기
 console.log(3 - 2);  // substract :: 빼기
@@ -10,6 +13,9 @@ console.log(3 / 2);  // divide :: 나누기
 console.log(3 * 2);  // multiply :: 곱하기
 console.log(5 % 2);  // remainder :: 나누고 나머지 값
 console.log(2 ** 3); // exponentiation :: 제곱
+
+
+
 
 // 3. Increment and decrement operators :: 데이터 업데이트 순서
 let counter = 2;
@@ -38,6 +44,9 @@ const postDecrement = counter--;
 // counter = counter + 1;
 console.log(`postDecrement: ${postDecrement}, counter: ${counter}`)
 
+
+
+
 // 4. Assignment operators :: 변수 할당 축약하는 방법
 let x = 3;
 let y = 6;
@@ -46,11 +55,17 @@ x -=y; // x = x - y;
 x *=y; // x = x * y;
 x /=y; // x = x / y;
 
+
+
+
 // 5. Comparison operators :: 비교
 console.log(10 < 6); // less than
 console.log(10 <= 6); // less than or equal
 console.log(10 > 6); // greater than
 console.log(10 >= 6); // greater than or equal
+
+
+
 
 // 6. Logical operators: || (or), && (and), ! (not)
 const value1 = true;
@@ -75,6 +90,9 @@ function check() {
 
 // ! (not)
 console.log(!value1);
+
+
+
 
 // 7. Equality
 const stringFive = '5';
@@ -105,6 +123,9 @@ console.log('' === false); //false
 console.log(null == undefined);  //true
 console.log(null === undefined); //false
 
+
+
+
 // 8. Conditional operators : if
 // if, else if, else
 const name = 'ellie';
@@ -116,9 +137,15 @@ if (name === 'ellie') {
     console.log('unknown');
 }
 
+
+
+
 // 9. Ternary operator : ? :: 간단하게 쓰는 조건문
 // condition ? value1 : value2 ;
 console.log(name === 'ellie' ? 'yes' : 'no');
+
+
+
 
 // 10. Switch statement :: case 조건문
 // use for multiple if checks
@@ -137,6 +164,9 @@ switch(browser) {
         console.log('same all!');
         break;
 }
+
+
+
 
 // 11. Loops
 // while loop, while the condition is truthy,
@@ -171,6 +201,9 @@ for (let i = 0; i < 10; i++){   // 이 경우 시간복잡도 = O(n^2) 이다. �
     }
 }
 
+
+
+
 // break, continue
 // Q1. iterate from 0 to 10 and print only even numbers (use continue)
 for(let i = 0; i<11; i++) {
@@ -179,6 +212,8 @@ for(let i = 0; i<11; i++) {
     }
     console.log(`Q1. ${i}`);
 }
+
+
 
 
 // Q2. iterate from 0 to 10 and print numbers until reaching 8 (use break)

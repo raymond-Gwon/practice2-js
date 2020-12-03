@@ -3,6 +3,9 @@
 // use this for Vanila Javascript.
 'use strict';
 
+
+
+
 // 2. Variable :: 아랫줄에서 변경이 가능한 데이터 자료
 // let (added in ES6)
 // only use let if variable needs to change.
@@ -26,6 +29,9 @@ var age;
 }
 console.log(age);
 
+
+
+
 // 3. Constant :: 수정 할 수 없는(고정적인) 데이터 자료
 // use const whenever possible.
 // favor immutable data type always for a few reasons:
@@ -34,6 +40,9 @@ console.log(age);
 //  - reduce human mistakes
 const daysInWeek = 7;
 const maxNumber = 5;
+
+
+
 
 // 4. Variable types
 // primitive type
@@ -99,6 +108,9 @@ const raymond = {nameTag: 'raymond', age: 20};
 console.log(raymond)
 raymond.age = 28;
 console.log(raymond)
+
+
+
 
 // 5. Dynamic typing: dynamically typed language
 let text = 'hello';
