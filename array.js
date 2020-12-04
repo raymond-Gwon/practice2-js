@@ -91,7 +91,7 @@ console.log(newFruits);
 
 
 
-console.clear();
+//console.clear();
 
 // 5. Searching
 // indexOf: find the index
